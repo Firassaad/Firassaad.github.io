@@ -1,6 +1,4 @@
-Thanks for downloading this template!
-
-Template Name: Personal
-Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
-Author: BootstrapMade.com
+Template Name: Personal page of Firas SAADAOUI 
+designed by: BootstrapMade.com
+developped and personalized by : Firas SAADAOUI
 License: https://bootstrapmade.com/license/
