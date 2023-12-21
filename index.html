@@ -26,7 +26,7 @@
 
 
   <style>
-    .header-tops {
+    /* .header-tops {
       background-image: url('assets/img/frsfinal.png');
       background-size: cover;
       background-repeat: no-repeat;
@@ -40,8 +40,7 @@
       position: absolute;
       top: 0;
       right: 0;
-      /* Add any additional styling for this image */
-    }
+    } */
   </style>
 </head>
 
@@ -49,7 +48,8 @@
 
   <!-- ======= Header ======= -->
   <header id="header" class="header-tops">
-    <div class="container" style="margin-left: 500px;">
+    <!-- <div class="container" style="margin-left: 500px;"> -->
+    <div class="container">
 
       <h1><a href="index.html">Firas SAADAOUI</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
@@ -61,7 +61,7 @@
           <li class="active"><a href="#header">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#resume">Resume</a></li>
-          <!-- <li><a href="#services">Services</a></li> -->
+          <li><a href="#services">Blogs</a></li>
           <li><a href="#portfolio">Certifications</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
@@ -512,27 +512,38 @@
     <div class="container">
 
       <div class="section-title">
-        <h2>Services</h2>
-        <p>My Services</p>
+        <h2>Blogs</h2>
+        <p>My Blogs</p>
       </div>
 
       <div class="row">
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch" onclick="openLink()">
           <div class="icon-box">
-            <div class="icon"><i class="bx bxl-dribbble"></i></div>
-            <h4><a href="">Lorem Ipsum</a></h4>
-            <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+            <div class="icon"><i class="bx bx-file"></i></div>
+            <h4><Blog</h4>
+            <p>Navigating Microservices: A Comprehensive Handbook on API Gateways</p>
           </div>
         </div>
+        <script>
+          function openLink() {
+            // Replace 'https://www.example.com' with the actual URL you want to open
+            var linkToOpen = 'https://frsit.hashnode.dev/navigating-microservices-a-comprehensive-handbook-on-api-gateways';
 
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+            // Open the link in a new window
+            window.open(linkToOpen, '_blank');
+          }
+          </script>
+        <!-- <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
           <div class="icon-box">
             <div class="icon"><i class="bx bx-file"></i></div>
             <h4><a href="">Sed ut perspiciatis</a></h4>
             <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
           </div>
-        </div>
+        </div> -->
 
+
+
+<!--
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
           <div class="icon-box">
             <div class="icon"><i class="bx bx-tachometer"></i></div>
@@ -565,7 +576,7 @@
           </div>
         </div>
 
-      </div>
+      </div> -->
 
     </div>
   </section>
